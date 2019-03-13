@@ -61,11 +61,13 @@ def work_out
  "♪ another one bites the dust ♫"
 end
 
+
 def call_friend(friend)
   friend.happiness += 3
   self.happiness += 3
   "Hi #{friend.name}! it's #{@name}. How are you?"
 end
+
 
 def start_conversation(friend,topic)
  if topic == "politics"
