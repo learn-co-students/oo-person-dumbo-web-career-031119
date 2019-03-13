@@ -35,6 +35,7 @@ def clean?
  end
 end
 
+
 def happy?
  if @happiness > 7
    true
@@ -42,6 +43,7 @@ def happy?
    false
  end
 end
+
 
 def get_paid(salary)
   @bank_account += salary
