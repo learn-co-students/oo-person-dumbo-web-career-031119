@@ -27,7 +27,6 @@ def hygiene=(new_hygiene)
 end
 
 
-
 def clean?
  if @hygiene > 7
    true
