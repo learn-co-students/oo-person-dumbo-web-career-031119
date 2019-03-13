@@ -14,14 +14,14 @@ def initialize(name)
   @hygiene = 8
 end
 
-def happiness=(num)
-  @happiness = num
+def happiness=(new_happiness)
+  @happiness = new_happiness
   @happiness = 10 if @happiness > 10
   @happiness = 0 if @happiness < 0
 end 
 
-  def hygiene=(num)
-    @hygiene = num
+def hygiene=(new_hygiene)
+    @hygiene = new_hygiene
     @hygiene = 10 if @hygiene > 10
     @hygiene = 0 if @hygiene < 0
   end
