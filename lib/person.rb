@@ -28,7 +28,7 @@ end
 
 
 def clean?
- if @hygiene >=7
+ if @hygiene > 7
    true
  else
    false
@@ -36,7 +36,7 @@ def clean?
 end
 
 def happy?
- if @happiness >= 7
+ if @happiness > 7
    true
  else
    false
