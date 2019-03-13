@@ -21,10 +21,10 @@ def happiness=(new_happiness)
 end 
 
 def hygiene=(new_hygiene)
-    @hygiene = new_hygiene
-    @hygiene = 10 if @hygiene > 10
-    @hygiene = 0 if @hygiene < 0
-  end
+  @hygiene = new_hygiene
+  @hygiene = 10 if @hygiene > 10
+  @hygiene = 0 if @hygiene < 0
+end
 
 # def happiness(new_happiness)
 #   @happiness = new_happiness
