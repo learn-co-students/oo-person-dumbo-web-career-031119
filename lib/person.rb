@@ -82,7 +82,6 @@ def start_conversation(friend,topic)
  end
 end
 
-
 end 
 
 
