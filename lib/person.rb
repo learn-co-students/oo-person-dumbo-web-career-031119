@@ -58,7 +58,7 @@ end
 def work_out
  self.hygiene -= 3
  self.happiness += 2
- return "♪ another one bites the dust ♫"
+ "♪ another one bites the dust ♫"
 end
 
 def call_friend(friend)
