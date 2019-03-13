@@ -73,13 +73,13 @@ def start_conversation(friend,topic)
  if topic == "politics"
    friend.happiness -= 1
    self.happiness -= 1
-   return "blah blah partisan blah lobbyist"
+   "blah blah partisan blah lobbyist"
  elsif topic == "weather"
    friend.happiness += 1
    self.happiness += 1
-   return "blah blah sun blah rain"
+   "blah blah sun blah rain"
  else
-   return"blah blah blah blah blah"
+   "blah blah blah blah blah"
  end
 end
 
